@@ -1,0 +1,10 @@
+{
+  "name": "resumelens",
+  "private": true,
+  "type": "module",
+  "description": "Front-end-only, rule-based resume analyzer. No build step; this file only tells Node to treat src/*.js as ES modules for tests.",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "start": "npx serve ."
+  }
+}
